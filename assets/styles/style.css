@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: rgb(234, 229, 229);
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    min-height: 593px;
+    margin: 0 auto;
+    background-color: #FFF;
+    
+}
+
+.wrapper{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* блок картинка*/
+
+.img{
+    max-width: 160px;
+}
+
+/*Блок с input и кнопкой "добавить задачу"*/
+
+.task-field{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    border-color: rgb(119, 119, 225);
+}
+
+.btn-add{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(237, 182, 87);
+}
+
+/*блок со списком задач и их заголовком и кнопкой очистить*/
+
+.second-header{
+    margin-bottom: 40px;
+}
+
+.todo-list{
+    margin-bottom: 40px;
+}
+
+.button{
+    margin-left: 400px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(237, 182, 87);
+    border: none;
+}
+/* стили к тексту "Нет задач"*/
+.no-task{
+    
+    color: rgb(136, 132, 127);
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+/*стили для блока с появляющимися задачами*/
+
+.block-task{
+    
+    border: 1px solid silver;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task{
+    padding-top: 5px;
+    
+}
+
+.checkbox{
+    width: 23px;
+}
+.error{
+    color: red;
+    font-size: 25px;
+}
+
+
+
+.empty-task{
+    color: silver;
+    padding-top: 20px;
+    
+}
+
+.delete{
+    background-color: rgb(178, 172, 172);
+}
