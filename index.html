@@ -6,7 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    <div>Hello World</div>
+    <main class="block-container container">
+        <div class="block-wrapper wrapper">
+            <div class="block-image">
+                <img class="img" src="./assets/images/ITgirlsSchool.png" alt="ITGirlsSchool">
+            </div>
+
+            <!--часть с заголовком , input и кнопкой добавить задачу-->
+            <div class="block-header ">
+                <h1 class="header">Добавить задачу</h1>
+            </div>
+            <div class="task-field">
+                <div class="block-input">
+                    <input type="text" class="input" id="input" placeholder="Задача">
+                </div>
+                <div class="block-button">
+                    <button class="btn-add" id="btn-add">Добавить</button>
+                </div>
+            </div>
+            <!--Блок со списком задач-->
+            <div class="block-list">
+                <h2 class="second-header">Список задач</h2>
+                <div class="todo-list" id="todo-list">
+                    <!--Здесь будут списки задач-->
+                    
+                    <div class="no-task">Нет задач</div>
+                </div>
+                 
+            </div>
+            <!--кнопка очистить все-->
+            <div class="button-remove">
+                <button class="button" id="button-delete">Очистить список задач</button>
+            </div>
+        </div>
+
+
+    </main>
     <script src="./javascript/script.js"></script>
 </body>
 </html>
